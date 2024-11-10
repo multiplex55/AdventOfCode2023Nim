@@ -2,3 +2,14 @@ nimcache/
 nimblecache/
 htmldocs/
 DEBUG_OUTPUT.txt
+InputFiles/day5_small.txt
+InputFiles/day5.txt
+output_debug.txt
+bin/Main.exe
+bin/Day5Mod.exe
+InputFiles/day1.txt
+InputFiles/day2.txt
+InputFiles/day3.txt
+InputFiles/day3_small.txt
+InputFiles/day4.txt
+InputFiles/day4_small.txt
