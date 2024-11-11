@@ -20,7 +20,6 @@ proc WaitForIt*(fileName: string): int =
 
     defer: fileStrm.close()
 
-    # Read through the file and process the mappings directly on the seeds
     for line in fileStrm.lines():
         if "Time" in line:
             raceTime = line.replace("Time:","").split(" ").filterIt(it != "").join("").parseInt()
